@@ -1,0 +1,20 @@
+{
+  "name": "js-lotus-client-examples",
+  "version": "1.0.0",
+  "description": "This repository contains a collection of examples demonstrating how to interact with a Filecoin network via the [JavaScript Client API](https://filecoin-shipyard.github.io/js-lotus-client/intro/intro.html) for [Lotus](https://lotu.sh/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchwagner/js-lotus-client-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitchwagner/js-lotus-client-examples/issues"
+  },
+  "homepage": "https://github.com/mitchwagner/js-lotus-client-examples#readme"
+}
