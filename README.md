@@ -19,6 +19,7 @@ The following packages are required to run these examples; running
 
 - @filecoin-shipyard/lotus-client-schema
 - @filecoin-shipyard/lotus-client-provider-nodejs
+- @filecoin-shipyard/lotus-client-provider-browser
 - @filecoin-shipyard/lotus-client-rpc
 
 The interface for the Lotus JavaScript Client is spread between
@@ -26,8 +27,14 @@ these three packages for the purposes of modularity.
 
 - The first package defines the remote procedure call schema for the Lotus API.
 
-- The second defines a provider for connecting to a Lotus node in the context
-  of a given environment (for example, a browser, or via Node.js).
+- The second and third each define a provider for connecting to a
+  Lotus node in the context of a given environment (i.e., a
+  browser, or via Node.js).
 
 - The third allows us to create clients that leverage a given provider
   and schema to properly communicate with a specified Lotus node.
+
+## Additional Links
+
+- https://github.com/filecoin-project/lotus/blob/master/api/api_full.go
+- https://docs.filecoin.io/build/  
