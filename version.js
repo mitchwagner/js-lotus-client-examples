@@ -6,7 +6,7 @@ const c = require('@filecoin-shipyard/lotus-client-rpc')
 // a local Lotus node 
 const endpoint = 'ws://localhost:7777/rpc/v0'
 const provider = new p.NodejsProvider(endpoint)
-const client = new c.LotusRPC( provider, { schema: s.testnet.fullNode })
+const client = new c.LotusRPC(provider, { schema: s.testnet.fullNode })
 
 // Print out the Lotus node's version information 
 async function run () {
